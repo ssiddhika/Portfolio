@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Apply the dark theme class when the system prefers dark mode */
+@media (prefers-color-scheme: dark) {
+    body {
+      class: 'theme-dracula';
+    }
+  }
+  
