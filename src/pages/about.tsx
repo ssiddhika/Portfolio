@@ -2,35 +2,35 @@
 
 import Head from 'next/head';
 import Timeline from '../components/Timeline';
-
+import Carousel from '../components/Carousel';
 const AboutPage = () => {
-  return (
-    <>
-      <Head>
-        <title>About Me - Siddhika Prasad</title>
-      </Head>
-      <div className="container mx-auto px-4 py-8">
-        <h1 className="text-4xl font-bold text-center mb-6">About Me</h1>
-
-        {/* Introduction to Studies and Engineering Passion */}
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-4">My Journey in Engineering</h2>
-          <p className="text-lg mb-3">
-            I currently study a Bachelor of Engineering (Honours), Bachelor of Business at UTS, majoring in
-            Software Engineering and Management. I enjoy delving into projects and seeing concepts turn from
-            ideation to creation!
-          </p>
-          <p className="text-lg mb-3">
-            I’ve always wanted to work in the realm of engineering, I just wasn’t aware of it until university.
-            Despite its rarity for women, I embraced engineering with the encouragement of my teachers and peers.
-          </p>
-          <p className="text-lg">
-            What excites me about this industry is its ability to simplify and solve real world problems,
-            promoting continuous learning and offering opportunities to push the boundaries of knowledge and
-            achievement.
-          </p>
+    return (
+        <>
+          <div className="container mx-auto px-4 py-8">
+            <h1 className="text-4xl font-bold text-center mb-6">About Me</h1>
+            <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-8 md:space-y-0 md:space-x-8">
+              {/* Text Section */}
+              <div className="md:w-1/2">
+                <h2 className="text-2xl font-semibold mb-4">My Journey in Engineering</h2>
+                <p className="text-lg">
+                  I currently study a Bachelor of Engineering (Honours), Bachelor of Business at UTS. I enjoy delving into projects and seeing concepts turn from
+                  ideation to creation!
+                </p>
+                <p className="text-lg">
+                  What excites me about this industry is its ability to simplify and solve real world problems,
+                  promoting continuous learning and offering opportunities to push the boundaries of knowledge and
+                  achievement.
+                </p>
+              </div>
+              
+              {/* Carousel Section */}
+              <div className="md:w-1/2 max-w-xs mx-auto md:mx-0">
+                <Carousel />
+              </div>
+            </div>
+          
           <Timeline />
-        </section>
+        
 
         {/* Personal Interests and Hobbies */}
         <section className="mb-6">

@@ -5,14 +5,22 @@ const Timeline = () => {
     <div className="container mx-auto px-4 py-8">
       <h2 className="text-2xl font-bold text-center mb-6">Education</h2>
       <ul className="timeline timeline-vertical">
-
         
         {/* Timeline Entry 1 */}
-        
         <li>
           <div className="timeline-start timeline-box">
-          <h1>University of Technology Sydney</h1>
-          <p>Ultimo, 2022 - 2026</p>
+            <h3 className="text-xl font-bold">University of Technology Sydney</h3>
+            <p className="text-normal italic">Ultimo, 2022 - 2026</p>
+            <br></br>
+            <p className="text-normal">  2022 marked the beginning of my journey into software engineering at the University of Technology Sydney (UTS). It is here where I delved outside my bubble and began to experience the start of the "real world". </p>
+            <br></br>
+            <p className="text-normal">At UTS, I've embraced a range of opportunities and connections that have shaped my personal and professional trajectory.  Engaging in hands-on projects and collaborative teams, I've developed a strong appreciation for the impact of software solutions on real-world challenges.
+ </p>
+            <br></br>
+    
+            <p className="text-normal"> The opportunity to tackle real world problems has been an unmatched learning experience. I can't wait to see what else I get up to!</p>
+            <br></br>
+            <p className="text-normal"> </p>
           </div>
           <div className="timeline-middle">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5">
@@ -31,10 +39,15 @@ const Timeline = () => {
             </svg>
           </div>
           <div className="timeline-end timeline-box">
-          <h1>Higher School Certificate</h1>
-          <p>Thomas Hassall Anglican College 2016 - 2021</p>
-          <p></p>
-            </div>
+            <h3 className="text-xl font-bold">Higher School Certificate</h3>
+            <p className="text-normal italic">Thomas Hassall Anglican College, 2016 - 2021</p>
+            <br></br>
+            <p className="text-normal">Completed my high school education in Sydney's south west! My HSC subjects included Advanced English, Advanced Math, Extension 1 Math, Economics, Physics, and Business Studies. </p>
+            <br></br>
+            I completed my final years during the peak of the COVID pandemic. Although challenging to graduate and say goodbye to so many memories, there was a lot of time for reflecting, introspection and solidying the lessons I learnt out of the classroom. 
+            <br></br>
+            <p></p>
+          </div>
           <hr />
         </li>
       </ul>
