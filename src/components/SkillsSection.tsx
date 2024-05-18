@@ -28,31 +28,31 @@ const SkillsSection = () => {
               <p className="mt-2 text-base-content">React</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//nextjs.svg" alt="Next.js" width={64} height={64} />
+              <Image src="/images/TechStack/nextjs.svg" alt="Next.js" width={64} height={64} />
               <p className="mt-2 text-base-content">Next.js</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//node.svg" alt="Node.js" width={64} height={64} />
+              <Image src="/images/TechStack/node.svg" alt="Node.js" width={64} height={64} />
               <p className="mt-2 text-base-content">Node.js</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//tailwind.svg" alt="Tailwind CSS" width={64} height={64} />
+              <Image src="/images/TechStack/tailwind.svg" alt="Tailwind CSS" width={64} height={64} />
               <p className="mt-2 text-base-content">Tailwind CSS</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//java.svg" alt="Java" width={64} height={64} />
+              <Image src="/images/TechStack/java.svg" alt="Java" width={64} height={64} />
               <p className="mt-2 text-base-content">Java</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//python.svg" alt="Python" width={64} height={64} />
+              <Image src="/images/TechStack/python.svg" alt="Python" width={64} height={64} />
               <p className="mt-2 text-base-content">Python</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/image/TechStack/s/csharp.svg" alt="C#" width={64} height={64} />
+              <Image src="/images/TechStack/CSharp.svg" alt="C#" width={64} height={64} />
               <p className="mt-2 text-base-content">C#</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//c++.svg" alt="C++" width={64} height={64} />
+              <Image src="/images/TechStack/c++.svg" alt="C++" width={64} height={64} />
               <p className="mt-2 text-base-content">C++</p>
             </div>
             <div className="flex flex-col items-center">
@@ -60,7 +60,7 @@ const SkillsSection = () => {
               <p className="mt-2 text-base-content">HTML</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//mongodb.svg" alt="MongoDB" width={64} height={64} />
+              <Image src="/images/TechStack/mongodb.svg" alt="MongoDB" width={64} height={64} />
               <p className="mt-2 text-base-content">MongoDB</p>
             </div>
           </div>

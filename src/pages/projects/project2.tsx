@@ -1,17 +1,17 @@
 import Head from 'next/head';
 
-const ProjectPage = () => {
+const Project2 = () => {
   return (
     <>
       <Head>
-        <title>Projects</title>
+        <title>Project 1 | Siddhika&apos;s Portfolio</title>
       </Head>
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg py-12 lg:py-16">
         <h1 className="text-3xl lg:text-4xl font-bold text-base-content mb-8">
-         Projects 
+          Project 1
         </h1>
         <p className="text-lg lg:text-xl text-base-content mb-8">
-         Below are some projects I've worked on. Click to find out more!
+          Detailed description of Project 1.
         </p>
         {/* Add more content as needed */}
       </div>
@@ -19,4 +19,4 @@ const ProjectPage = () => {
   );
 };
 
-export default ProjectPage;
+export default Project2;

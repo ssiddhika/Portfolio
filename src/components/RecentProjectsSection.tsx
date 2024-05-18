@@ -3,31 +3,31 @@ import ProjectCard from './ProjectCard';
 const RecentProjectsSection = () => {
   const projects = [
     {
-      title: 'Project 1',
+      title: 'SME Growth Recommender Platform',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      technologies: ['React', 'Next.js', 'Tailwind CSS'],
-      imageUrl: '/path-to-image/project1.jpg',
+      technologies: ['React', 'Next.js', 'Tailwind CSS', 'Figma', 'HTML', 'PayloadCMS', 'MongoDB'],
+      imageUrl: '/images/Projects/VideoProject.png',
       projectUrl: '/projects/project1'
     },
     {
-      title: 'Project 2',
+      title: 'Optik Summer Internship Video',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      technologies: ['JavaScript', 'Node.js', 'Express'],
-      imageUrl: '/path-to-image/project2.jpg',
+      technologies: ['Adobe Premiere Pro'],
+      imageUrl: '/images/Projects/VideoProject.png',
       projectUrl: '/projects/project2'
     },
     {
-        title: 'Project 3',
+        title: 'MEP Support Suggestion Tool',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        technologies: ['JavaScript', 'Node.js', 'Express'],
-        imageUrl: '/path-to-image/project2.jpg',
-        projectUrl: '/projects/project2'
+        technologies: ['C#', 'Autodesk Navisworks', 'Autodesk Revit', 'Navisworks API'],
+        imageUrl: '/images/Projects/VideoProject.png',
+                projectUrl: '/projects/project2'
       },
       {
-        title: 'Project 4',
+        title: 'Personal Portfolio',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-        technologies: ['JavaScript', 'Node.js', 'Express'],
-        imageUrl: '/path-to-image/project2.jpg',
+        technologies: ['JavaScript', 'Node.js', 'HTML', 'Tailwind CSS', 'DaisyUI', 'Next.js'],
+        imageUrl: '/images/Projects/VideoProject.png',
         projectUrl: '/projects/project2'
       },
     // Add more projects as needed
@@ -40,7 +40,7 @@ const RecentProjectsSection = () => {
           Recent Projects
         </h2>
         <p className="text-lg lg:text-xl text-base-content mb-8 text-center">
-          Check out my recently completed work!
+          Check out some things I've recently completed!
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
