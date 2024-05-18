@@ -1,21 +1,30 @@
-// src/components/IntroSection.tsx
-const IntroSection = () => {
+import Image from 'next/image';
+
+const HeroSection = () => {
   return (
-    <div className="bg-white py-10">
-      <div className="container mx-auto px-6">
-        <div className="flex flex-col md:flex-row items-center">
-          <div className="md:w-1/2">
-            <h1 className="font-bold text-4xl mb-2">
-              <div className="text-purple-800">Hi I'm,</div>
-              <div className="text-pink-700">Siddhika.</div>
+    <div className="bg-base-100 py-8 lg:pt-32 lg:pb-16 rounded-lg shadow-xl min-h-[100vh] flex items-center">
+      <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg">
+        <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
+          <div className="flex-1 min-w-0 md:mr-28 lg:mr-32">
+            <h1 className="text-5xl lg:text-6xl font-bold text-base-content mb-4">
+              Hi, I'm
+              <div className="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">Siddhika.</div>
             </h1>
-            <p className="text-gray-600 text-lg">
-              Software engineering and business undergraduate at University of Technology Sydney. With a dedication to innovation and problem solving, I am keen on using technology to create impactful solutions!
+            <p className="text-lg lg:text-xl text-base-content">
+              Software engineering and business undergraduate at University of Technology Sydney. With a dedication
+              to innovation and problem solving, I am keen on using technology to create impactful solutions!
             </p>
-            <p className="text-gray-500 text-base mt-1">Sydney, Australia</p>
+            <p className="text-secondary text-lg mt-2">📍 Sydney, Australia</p>
           </div>
-          <div className="md:w-1/2 flex justify-center md:justify-end mt-6 md:mt-0">
-            <img src="/path-to-your-image.jpg" alt="Siddhika" className="rounded-full w-48 h-48 object-cover" />
+          <div className="relative flex-shrink-0">
+          
+            <Image
+              src="/images/sid.jpg"
+              alt="Siddhika"
+              width={300}
+              height={300}
+              className="rounded-xl shadow-lg"
+            />
           </div>
         </div>
       </div>
@@ -23,4 +32,8 @@ const IntroSection = () => {
   );
 };
 
-export default IntroSection;
+export default HeroSection;
+
+
+
+// src="/images/sid.jpg"
