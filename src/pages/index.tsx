@@ -3,6 +3,8 @@
 import IntroSection from '../components/IntroSection';
 import AboutSection from '../components/AboutSection'; 
 import SkillsSection from '../components/SkillsSection';
+
+import RecentProjectsSection from '../components/RecentProjectsSection';
 // import other sections if needed
 
 const Home = () => {
@@ -14,6 +16,8 @@ const Home = () => {
         <IntroSection />
         <AboutSection />
         <SkillsSection />
+
+        <RecentProjectsSection /> 
       {/* Include other sections here */}
     </>
   );
