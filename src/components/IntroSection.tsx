@@ -7,7 +7,7 @@ const HeroSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           <div className="flex-1 min-w-0 md:mr-28 lg:mr-32">
             <h1 className="text-5xl lg:text-6xl font-bold text-base-content mb-4">
-              Hi, I'm
+              Hi, I&apos;m
               <div className="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">Siddhika.</div>
             </h1>
             <p className="text-lg lg:text-xl text-base-content">

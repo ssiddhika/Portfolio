@@ -11,7 +11,7 @@ const SkillsSection = () => {
           The skills, tools, and technologies I am really good at:
         </p>
         <div className="mb-12">
-          <h3 className="text-1xl lg:text-2xl font-semibold text-base-content mb-4 text-center">
+          <h3 className="text-1xl lg:text-2xl font-semibold text-neutral mb-4 text-center">
             Tech Stack
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
@@ -66,7 +66,7 @@ const SkillsSection = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-1xl lg:text-2xl font-semibold text-base-content mb-4 text-center">
+          <h4 className="text-1xl lg:text-2xl font-semibold text-neutral  mb-4 text-center">
             Other Technical Skills
           </h4>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
