@@ -3,31 +3,33 @@
 import Head from 'next/head';
 import Timeline from '../components/Timeline';
 import Carousel from '../components/Carousel';
+
 const AboutPage = () => {
     return (
-        <>
-          <div className="container mx-auto px-4 py-8">
-            <h1 className="text-4xl font-bold text-center mb-6">About Me</h1>
-            <div className="flex flex-col md:flex-row justify-between items-start md:items-center space-y-8 md:space-y-0 md:space-x-8">
-              {/* Text Section */}
-              <div className="md:w-1/2">
-                <h2 className="text-2xl font-semibold mb-4">My Journey in Engineering</h2>
-                <p className="text-lg">
-                  I currently study a Bachelor of Engineering (Honours), Bachelor of Business at UTS. I enjoy delving into projects and seeing concepts turn from
-                  ideation to creation!
-                </p>
-                <p className="text-lg">
-                  What excites me about this industry is its ability to simplify and solve real world problems,
-                  promoting continuous learning and offering opportunities to push the boundaries of knowledge and
-                  achievement.
-                </p>
-              </div>
-              
-              {/* Carousel Section */}
-              <div className="md:w-1/2 max-w-xs mx-auto md:mx-0">
-                <Carousel />
-              </div>
+      <>
+        <div className="container mx-auto px-4 py-8">
+        
+          <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
+            {/* Text Section */}
+            <div className="md:flex-1 md:pr-8"> {/* Adding right padding to separate text from carousel */}
+              <h2 className="text-2xl font-semibold mb-4">My Journey in Engineering</h2>
+              <p className="text-lg mb-4">
+                I currently study a Bachelor of Engineering (Honours), Bachelor of Business at UTS. I enjoy delving into projects and seeing concepts turn from
+                ideation to creation!
+              </p>
+              <p className="text-lg">
+                What excites me about this industry is its ability to simplify and solve real world problems,
+                promoting continuous learning and offering opportunities to push the boundaries of knowledge and
+                achievement.
+              </p>
             </div>
+            
+            {/* Carousel Section */}
+            <div className="md:flex-1 max-w-sm mx-auto md:mx-0"> {/* Allowing the carousel to grow on larger screens */}
+              <Carousel />
+            </div>
+          </div>
+    
           
           <Timeline />
         
@@ -55,14 +57,12 @@ const AboutPage = () => {
           </p>
         </section>
 
-        {/* Future Aspirations */}
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-4">Looking Ahead</h2>
+         
           <p className="text-lg">
             Recently completing an internship, I am curious and excited about where the future will take me.
             I am continuously seeking to learn and grow within this dynamic field of engineering.
           </p>
-        </section>
+       
       </div>
     </>
   );
