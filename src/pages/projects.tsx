@@ -11,7 +11,7 @@ const ProjectPage = () => {
          Projects 
         </h1>
         <p className="text-lg lg:text-xl text-base-content mb-8">
-         Below are some projects I've worked on. Click to find out more!
+         Below are some projects I&apos;ve worked on. Click to find out more!
         </p>
         {/* Add more content as needed */}
       </div>
