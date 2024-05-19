@@ -40,7 +40,7 @@ const RecentProjectsSection = () => {
           Recent Projects
         </h2>
         <p className="text-lg lg:text-xl text-base-content mb-8 text-center">
-          Check out some things I've recently completed!
+          Check out some things I&apos;ve recently completed!
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
