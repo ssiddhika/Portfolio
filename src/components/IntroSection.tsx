@@ -11,8 +11,8 @@ const HeroSection = () => {
               <div className="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent">Siddhika.</div>
             </h1>
             <p className="text-lg lg:text-xl text-base-content">
-              Software engineering and business undergraduate at University of Technology Sydney. With a dedication
-              to innovation and problem solving, I am keen on using technology to create impactful solutions!
+              Software engineering and business undergraduate at University of Technology Sydney. 
+              I am dedicated to innovation and complex problem solving. Eager to use technology to create impactful solutions!
             </p>
             <p className="text-secondary text-lg mt-2">📍 Sydney, Australia</p>
           </div>
