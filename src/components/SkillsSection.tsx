@@ -44,7 +44,7 @@ const SkillsSection = () => {
               <p className="mt-2 text-base-content">Java</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/python.svg" alt="Python" width={64} height={64} />
+              <Image src="/images/TechStack/Python.svg" alt="Python" width={64} height={64} />
               <p className="mt-2 text-base-content">Python</p>
             </div>
             <div className="flex flex-col items-center">
@@ -52,7 +52,7 @@ const SkillsSection = () => {
               <p className="mt-2 text-base-content">C#</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/c++.svg" alt="C++" width={64} height={64} />
+              <Image src="/images/TechStack/C++.svg" alt="C++" width={64} height={64} />
               <p className="mt-2 text-base-content">C++</p>
             </div>
             <div className="flex flex-col items-center">
@@ -60,7 +60,7 @@ const SkillsSection = () => {
               <p className="mt-2 text-base-content">HTML</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/mongodb.svg" alt="MongoDB" width={64} height={64} />
+              <Image src="/images/TechStack/MongoDB.svg" alt="MongoDB" width={64} height={64} />
               <p className="mt-2 text-base-content">MongoDB</p>
             </div>
           </div>
