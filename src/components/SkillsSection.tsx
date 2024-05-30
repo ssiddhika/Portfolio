@@ -8,7 +8,7 @@ const SkillsSection = () => {
           Skills
         </h2>
         <p className="text-lg lg:text-xl text-base-content mb-8 text-center">
-          The skills, tools, and technologies I am really good at:
+          The skills, tools, and technologies I have experience in:
         </p>
         <div className="mb-12">
           <h3 className="text-1xl lg:text-2xl font-semibold text-neutral mb-4 text-center">
