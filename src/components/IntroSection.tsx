@@ -5,6 +5,7 @@ const HeroSection = () => {
     <div className="bg-base-100 py-8 lg:pt-32 lg:pb-16 rounded-lg shadow-xl min-h-[100vh] flex items-center">
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg">
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
+          
           <div className="flex-1 min-w-0 md:mr-28 lg:mr-32">
             <h1 className="text-5xl lg:text-6xl font-bold text-base-content mb-4">
               Hi, I&apos;m

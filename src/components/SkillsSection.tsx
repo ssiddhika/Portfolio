@@ -16,31 +16,31 @@ const SkillsSection = () => {
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/javascript.svg" alt="JavaScript" width={64} height={64} />
+              <Image src="/images/TechStack/Javascript.svg" alt="JavaScript" width={64} height={64} />
               <p className="mt-2 text-base-content">JavaScript</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/typescript.svg" alt="TypeScript" width={64} height={64} />
+              <Image src="/images/TechStack/Typescript.svg" alt="TypeScript" width={64} height={64} />
               <p className="mt-2 text-base-content">TypeScript</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/react.svg" alt="React" width={64} height={64} />
+              <Image src="/images/TechStack/React.svg" alt="React" width={64} height={64} />
               <p className="mt-2 text-base-content">React</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/nextjs.svg" alt="Next.js" width={64} height={64} />
+              <Image src="/images/TechStack/Nextjs.svg" alt="Next.js" width={64} height={64} />
               <p className="mt-2 text-base-content">Next.js</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/node.svg" alt="Node.js" width={64} height={64} />
+              <Image src="/images/TechStack/Node.svg" alt="Node.js" width={64} height={64} />
               <p className="mt-2 text-base-content">Node.js</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/tailwind.svg" alt="Tailwind CSS" width={64} height={64} />
+              <Image src="/images/TechStack/Tailwind.svg" alt="Tailwind CSS" width={64} height={64} />
               <p className="mt-2 text-base-content">Tailwind CSS</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/java.svg" alt="Java" width={64} height={64} />
+              <Image src="/images/TechStack/Java.svg" alt="Java" width={64} height={64} />
               <p className="mt-2 text-base-content">Java</p>
             </div>
             <div className="flex flex-col items-center">
