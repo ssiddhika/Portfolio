@@ -5,7 +5,7 @@ const Navbar = () => {
   const [theme, setTheme] = useState('light');
 
   const toggleTheme = () => {
-    const newTheme = theme === 'dracula' ? 'valentine' : 'dracula';
+    const newTheme = theme === 'dracula' ? 'cupcake' : 'dracula';
     setTheme(newTheme);
     document.documentElement.setAttribute('data-theme', newTheme);
   };

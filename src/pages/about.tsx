@@ -9,7 +9,7 @@ const AboutPage = () => {
     <>
       <Head>
         <title>About Me</title>
-        <meta name="description" content="Muhammad Faiz Khan's About Page" />
+        <meta name="description" content="About" />
       </Head>
       <div className="p-8 max-w-screen-lg mx-auto">
         <section className="mb-12">
@@ -21,12 +21,12 @@ const AboutPage = () => {
               <h1 className="text-4xl font-bold text-primary mb-4">A bit more about me!</h1>
               <p className="text-base-content">
                 I am a curious <strong>learner, designer and developer</strong>. I currently study engineering and business
-                at UTS and enjoy delving into projects and seeing them grow from ideation. 
+                at UTS and enjoy delving into projects and seeing concepts grow from <strong> ideation to creation.</strong>
               </p>
-              <p className="text-base-content mt-4">
+              <p className="text-base-content mt-4 text-pretty">
               What excites me about this industry is 
-                its ability to simplify and solve real world problems, promoting continuous learning and offering opportunities
-                to push the boundaries of <strong>knowledge and impact</strong>. 
+                its ability to simplify and solve real world problems, promote continuous learning and offering opportunities
+                to push the boundaries of <strong>knowledge&nbsp;and&nbsp;impact</strong>. 
               </p>
 
             </div>
@@ -66,7 +66,7 @@ const AboutPage = () => {
               <p className="mt-4 text-base-content">
               A few months ago, I wrapped up a gratifying three-month journey with <strong>Optik Consultancy</strong>, collaborating
             with the <strong>Hilti Group</strong> to streamline MEP design processes. This experience deepened my understanding of
-            construction and design, allowing me to apply my technical skills in new, impactful ways
+            construction and design, allowing me to apply my technical skills in new, impactful ways.
               </p>
       
           <p className="mt-4 text-base-content">
