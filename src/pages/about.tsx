@@ -5,64 +5,77 @@ import Timeline from '../components/Timeline';
 import Carousel from '../components/Carousel';
 
 const AboutPage = () => {
-    return (
-      <>
-        <div className="container mx-auto px-4 py-8">
-        
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-8 md:space-y-0">
-            {/* Text Section */}
-            <div className="md:flex-1 md:pr-8"> {/* Adding right padding to separate text from carousel */}
-              <h2 className="text-2xl font-semibold mb-4">My Journey in Engineering</h2>
-              <p className="text-lg mb-4">
-                I currently study a Bachelor of Engineering (Honours), Bachelor of Business at UTS. I enjoy delving into projects and seeing concepts turn from
-                ideation to creation!
-              </p>
-              <p className="text-lg">
-                What excites me about this industry is its ability to simplify and solve real world problems,
-                promoting continuous learning and offering opportunities to push the boundaries of knowledge and
-                achievement.
-              </p>
+  return (
+    <>
+      <Head>
+        <title>About Me</title>
+        <meta name="description" content="Muhammad Faiz Khan's About Page" />
+      </Head>
+      <div className="p-8 max-w-screen-lg mx-auto">
+        <section className="mb-12">
+          <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
+            <div className="w-full md:w-1/2 mb-4 md:mb-0">
+              <div className="bg-gray-300 h-48 md:h-64 w-full rounded-lg"></div> {/* Placeholder for Image */}
             </div>
-            
-            {/* Carousel Section */}
-            <div className="md:flex-1 max-w-sm mx-auto md:mx-0"> {/* Allowing the carousel to grow on larger screens */}
-              <Carousel />
+            <div className="w-full md:w-1/2 text-center md:text-left">
+              <h1 className="text-4xl font-bold text-primary mb-4">A bit more about me!</h1>
+              <p className="text-base-content">
+                I am a curious <strong>learner, designer and developer</strong>. I currently study engineering and business
+                at UTS and enjoy delving into projects and seeing them grow from ideation. 
+              </p>
+              <p className="text-base-content mt-4">
+              What excites me about this industry is 
+                its ability to simplify and solve real world problems, promoting continuous learning and offering opportunities
+                to push the boundaries of <strong>knowledge and impact</strong>. 
+              </p>
+
             </div>
           </div>
+        </section>
+
+        <section className="mb-12">
+          <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
+            <div className="w-full md:w-1/2 text-center md:text-left">
+              <h2 className="text-3xl font-bold text-secondary mb-2">Currently Studying At</h2>
+              <h3 className="text-2xl font-semibold text-secondary-focus mb-4">University of Technology Sydney</h3>
+              <h4 className="text-xl font-medium text-accent mb-4">Bachelor of Engineering (Honours), Bachelor of Business</h4>
+              <p className="text-normal">At UTS, I&apos;ve embraced a range of opportunities and connections that have shaped my <strong> personal and professional</strong> trajectory.  Engaging in hands-on projects and collaborative teams, I&apos;ve developed a strong appreciation for the impact of software solutions on complex challenges.
+              </p>
+              <br></br>
     
-          
-          <Timeline />
-        
+            <p className="text-normal"> The opportunity to tackle real world problems has been an unmatched learning experience. I can&apos;t wait to see what else I get up to!</p>
+            <br></br>
+              <ul className="list-disc list-inside text-accent-content">
+              
 
-        {/* Personal Interests and Hobbies */}
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-4">Life Outside of the Digital World</h2>
-          <p className="text-lg">
-            Outside of learning, I enjoy gaming, running, and have recently picked up watercolour painting! My
-            favourite shows include Brooklyn 99, Bojack Horseman, and The Big Bang Theory.
-          </p>
+              </ul>
+            </div>
+            <div className="w-full md:w-1/2 mb-4 md:mb-0">
+              <div className="bg-gray-300 h-48 md:h-64 w-full rounded-lg"></div> {/* Placeholder for Image */}
+            </div>
+          </div>
         </section>
 
-        {/* Professional Experience and Impact */}
-        <section className="mb-6">
-          <h2 className="text-2xl font-semibold mb-4">Professional Experience</h2>
-          <p className="text-lg">
-            A few months ago, I wrapped up a gratifying three-month journey with Optik Consultancy, collaborating
-            with the Hilti Group to streamline MEP design processes. This experience deepened my understanding of
-            construction and design, allowing me to apply my technical skills in new, impactful ways.
-          </p>
-          <p className="text-lg">
-            I am grateful for the mentorship received from Osman Mah and Chris Wilson, whose guidance was
+        <section>
+          <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
+            <div className="w-full md:w-1/2 mb-4 md:mb-0">
+              <div className="bg-gray-300 h-48 md:h-64 w-full rounded-lg"></div> {/* Placeholder for Image */}
+            </div>
+            <div className="w-full md:w-1/2 text-center md:text-left">
+              <h2 className="text-3xl font-bold text-primary mb-4">Professional Experience</h2>
+              <p className="mt-4 text-base-content">
+              A few months ago, I wrapped up a gratifying three-month journey with <strong>Optik Consultancy</strong>, collaborating
+            with the <strong>Hilti Group</strong> to streamline MEP design processes. This experience deepened my understanding of
+            construction and design, allowing me to apply my technical skills in new, impactful ways
+              </p>
+      
+          <p className="mt-4 text-base-content">
+          I am grateful for the mentorship received from Osman Mah and Chris Wilson, whose guidance was
             instrumental in enhancing my learning experience and professional advancement.
-          </p>
+              </p>
+            </div>
+          </div>
         </section>
-
-         
-          <p className="text-lg">
-            Recently completing an internship, I am curious and excited about where the future will take me.
-            I am continuously seeking to learn and grow within this dynamic field of engineering.
-          </p>
-       
       </div>
     </>
   );

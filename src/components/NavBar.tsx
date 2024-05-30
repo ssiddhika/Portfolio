@@ -16,7 +16,7 @@ const Navbar = () => {
 
   return (
     
-    <div className="navbar bg-base-100 shadow-lg rounded-lg">
+    <div className="navbar bg-base-100 shadow-md rounded-lg">
       <div className="navbar-start">
         <Link href="/" className="btn btn-ghost normal-case text-xl">Siddhika</Link>
       </div>
