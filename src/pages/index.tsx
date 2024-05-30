@@ -11,7 +11,7 @@ import RecentProjectsSection from '../components/RecentProjectsSection';
 const Home = () => {
   return (
     <>
-    <head>
+    
    
         <title>Siddhika&apos;s Portfolio</title>
         <meta name="description" content="Siddhika Prasad&apos;s Software Engineering Portfolio" />
@@ -21,7 +21,7 @@ const Home = () => {
 
         <RecentProjectsSection /> 
       {/* Include other sections here */}
-      </head>
+     
     </>
   );
 };
