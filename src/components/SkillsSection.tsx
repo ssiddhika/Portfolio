@@ -16,7 +16,7 @@ const SkillsSection = () => {
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/Javascript.svg" alt="JavaScript" width={64} height={64} />
+              <Image src="/images/TechStack/JavaScript.svg" alt="JavaScript" width={64} height={64} />
               <p className="mt-2 text-base-content">JavaScript</p>
             </div>
             <div className="flex flex-col items-center">
@@ -88,7 +88,7 @@ const SkillsSection = () => {
               <p className="mt-2 text-base-content">Confluence</p>
             </div>
             <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//VsCode.svg" alt="Visual Studio Code" width={64} height={64} />
+              <Image src="/images/TechStack//VSCode.svg" alt="Visual Studio Code" width={64} height={64} />
               <p className="mt-2 text-base-content">VSCode</p>
             </div>
           </div>
