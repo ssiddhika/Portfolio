@@ -16,7 +16,7 @@ const AboutSection = () => {
             />
           </div>
           <div className="flex-1 min-w-0 md:ml-12 lg:ml-16">
-            <h2 className="text-3xl lg:text-4xl font-bold text-base-content mb-4">
+            <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
               Learn a bit about me!
             </h2>
             <p className="text-lg lg:text-xl text-base-content  mb-4">

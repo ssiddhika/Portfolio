@@ -42,7 +42,7 @@ const RecentProjectsSection = () => {
         <p className="text-lg lg:text-xl text-base-content mb-8 text-center">
           Check out some things I&apos;ve recently completed!
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className=" grid grid-cols-1 md:grid-cols-2 gap-8">
           {projects.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
