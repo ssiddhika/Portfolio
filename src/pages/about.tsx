@@ -25,8 +25,8 @@ const AboutPage = () => {
               </p>
               <p className="text-base-content mt-4 text-pretty">
               What excites me about this industry is 
-                its ability to simplify and solve real world problems, promote continuous learning and offering opportunities
-                to push the boundaries of <strong>knowledge&nbsp;and&nbsp;impact</strong>. 
+                its ability to simplify and solve real world problems, promote continuous learning and 
+                 push the boundaries of <strong>knowledge&nbsp;and&nbsp;impact</strong>. 
               </p>
 
             </div>
@@ -38,7 +38,7 @@ const AboutPage = () => {
             <div className="w-full md:w-1/2 text-center md:text-left">
               <h2 className="text-3xl font-bold text-secondary mb-2">Currently Studying At</h2>
               <h3 className="text-2xl font-semibold text-secondary-focus mb-4">University of Technology Sydney</h3>
-              <h4 className="text-xl font-medium text-accent mb-4">Bachelor of Engineering (Honours), Bachelor of Business</h4>
+              <h4 className="text-xl font-medium text-accent mb-4">Bachelor of Engineering (Honours), Bachelor of&nbsp;Business</h4>
               <p className="text-normal">At UTS, I&apos;ve embraced a range of opportunities and connections that have shaped my <strong> personal and professional</strong> trajectory.  Engaging in hands-on projects and collaborative teams, I&apos;ve developed a strong appreciation for the impact of software solutions on complex challenges.
               </p>
               <br></br>
@@ -65,13 +65,16 @@ const AboutPage = () => {
               <h2 className="text-3xl font-bold text-primary mb-4">Professional Experience</h2>
               <p className="mt-4 text-base-content">
               A few months ago, I wrapped up a gratifying three-month journey with <strong>Optik Consultancy</strong>, collaborating
-            with the <strong>Hilti Group</strong> to streamline MEP design processes. This experience deepened my understanding of
-            construction and design, allowing me to apply my technical skills in new, impactful ways.
+            with <strong>Hilti Group</strong> to streamline MEP design processes. This experience deepened my understanding of
+            the construction and design industry, allowing me to apply my technical skills in new, impactful ways.
               </p>
       
           <p className="mt-4 text-base-content">
-          I am grateful for the mentorship received from Osman Mah and Chris Wilson, whose guidance was
+          I am grateful for the mentorship received from industry experts, whose guidance was
             instrumental in enhancing my learning experience and professional advancement.
+              </p>
+              <p className="mt-4 text-base-content">
+                As of now,
               </p>
             </div>
           </div>
