@@ -15,6 +15,7 @@ const Home = () => {
    
         <title>Siddhika&apos;s Portfolio</title>
         <meta name="description" content="Siddhika Prasad&apos;s Software Engineering Portfolio" />
+        
         <IntroSection />
         <AboutSection />
         <SkillsSection />

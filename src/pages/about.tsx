@@ -74,7 +74,7 @@ const AboutPage = () => {
             instrumental in enhancing my learning experience and professional advancement.
               </p>
               <p className="mt-4 text-base-content">
-                As of now,
+                Currently, I am seeking 
               </p>
             </div>
           </div>
