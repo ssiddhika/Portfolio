@@ -4,28 +4,28 @@ const RecentProjectsSection = () => {
   const projects = [
     {
       title: 'SME Growth Recommender Platform',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+      description: 'Front end demonstrator built for SMEs@UTS as part of Software Development Studio.',
       technologies: ['React', 'Next.js', 'Tailwind CSS', 'Figma', 'HTML', 'PayloadCMS', 'MongoDB'],
       imageUrl: '/images/Projects/SME.png',
       projectUrl: '/projects/project1'
     },
     {
         title: 'MEP Support Suggestion Tool',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        description: 'Plugin created for Autodesk Navisworks to analyse MEP (mechanical, electrical, and plumbing) components',
         technologies: ['C#', 'Autodesk Navisworks', 'Autodesk Revit', 'Navisworks API'],
         imageUrl: '/images/Projects/MEP.avif',
                 projectUrl: '/projects/project2'
       },
       {
         title: 'Personal Portfolio',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        description: 'Personalised developer portfolio website, created to showcase my projects and experience.',
         technologies: ['JavaScript', 'Node.js', 'HTML', 'Tailwind CSS', 'DaisyUI', 'Next.js'],
         imageUrl: '/images/Projects/Portfolio.png',
         projectUrl: '/projects/project2'
       },
       {
         title: 'Optik Summer Internship Video',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        description: 'Created a video to showcase intern insights, client reflections and faculty vision at Optik\'s tradeshow.',
         technologies: ['Adobe Premiere Pro'],
         imageUrl: '/images/Projects/VideoProject.png',
         projectUrl: '/projects/project2'
