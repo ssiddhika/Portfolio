@@ -6,21 +6,21 @@ const RecentProjectsSection = () => {
       title: 'SME Growth Recommender Platform',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       technologies: ['React', 'Next.js', 'Tailwind CSS', 'Figma', 'HTML', 'PayloadCMS', 'MongoDB'],
-      imageUrl: '/images/Projects/VideoProject.png',
+      imageUrl: '/images/Projects/SME.png',
       projectUrl: '/projects/project1'
     },
     {
         title: 'MEP Support Suggestion Tool',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         technologies: ['C#', 'Autodesk Navisworks', 'Autodesk Revit', 'Navisworks API'],
-        imageUrl: '/images/Projects/VideoProject.png',
+        imageUrl: '/images/Projects/MEP.avif',
                 projectUrl: '/projects/project2'
       },
       {
         title: 'Personal Portfolio',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         technologies: ['JavaScript', 'Node.js', 'HTML', 'Tailwind CSS', 'DaisyUI', 'Next.js'],
-        imageUrl: '/images/Projects/VideoProject.png',
+        imageUrl: '/images/Projects/Portfolio.png',
         projectUrl: '/projects/project2'
       },
       {
