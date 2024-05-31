@@ -15,7 +15,7 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    <div className="navbar bg-base-100 shadow-md rounded-lg">
+    <div className="navbar bg-base-100 relative z-50">
       <div className="navbar-start">
         <Link href="/" className="btn btn-ghost normal-case text-xl">Siddhika</Link>
       </div>
@@ -47,7 +47,6 @@ const Navbar = () => {
               <li><Link href="/projects">Projects</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/contact">Contact</Link></li>
-              <li><Link href="/">Home</Link></li>
             </ul>
           </div>
         </div>

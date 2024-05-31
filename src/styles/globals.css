@@ -10,5 +10,9 @@
         scroll-behavior: smooth;
       }
     }
+    body, .container, .section {
+      position: relative;
+      z-index: 1;
+    }
   }
   
