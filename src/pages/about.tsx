@@ -83,7 +83,7 @@ const AboutPage = () => {
                   alt="Siddhika"
                   layout="fill"
                   objectFit="cover"
-                  className="rounded-xl shadow-lg transition-transform transform hover:scale-105"
+                  className="rounded-xl shadow-lg "
                 />
               </div>
             </div>
