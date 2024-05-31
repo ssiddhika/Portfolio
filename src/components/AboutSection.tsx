@@ -8,7 +8,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           <div className="flex-shrink-0">
             <Image 
-              src="/images/sid.jpg" 
+              src="/images/Siddhika.jpg" 
               alt="Siddhika"
               width={300}
               height={300}
