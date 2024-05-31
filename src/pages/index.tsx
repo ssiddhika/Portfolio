@@ -12,9 +12,11 @@ const Home = () => {
   return (
     <>
     
-   
-        <title>Siddhika&apos;s Portfolio</title>
+    <Head>
+        <title>Siddhika's Portfolio</title>
         <meta name="description" content="Siddhika Prasad&apos;s Software Engineering Portfolio" />
+      </Head>
+     
         
         <IntroSection />
         <AboutSection />
