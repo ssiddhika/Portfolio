@@ -17,6 +17,7 @@ const HeroSection = () => {
               Software engineering and business undergraduate at the University of Technology Sydney. 
               I am dedicated to innovation and complex problem solving. Eager to use technology to create impactful solutions!
             </p>
+            <p className=" font-semibold italic text-lg lg:text-xl text-error">Note: This portfolio is currently a work in progress. </p>
             <p className="text-secondary font-semibold text-lg mt-2">📍 Sydney, Australia</p>
           </div>
           <div className="relative flex-shrink-0">
