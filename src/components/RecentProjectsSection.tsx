@@ -10,13 +10,6 @@ const RecentProjectsSection = () => {
       projectUrl: '/projects/project1'
     },
     {
-      title: 'Optik Summer Internship Video',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      technologies: ['Adobe Premiere Pro'],
-      imageUrl: '/images/Projects/VideoProject.png',
-      projectUrl: '/projects/project2'
-    },
-    {
         title: 'MEP Support Suggestion Tool',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         technologies: ['C#', 'Autodesk Navisworks', 'Autodesk Revit', 'Navisworks API'],
@@ -27,6 +20,13 @@ const RecentProjectsSection = () => {
         title: 'Personal Portfolio',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
         technologies: ['JavaScript', 'Node.js', 'HTML', 'Tailwind CSS', 'DaisyUI', 'Next.js'],
+        imageUrl: '/images/Projects/VideoProject.png',
+        projectUrl: '/projects/project2'
+      },
+      {
+        title: 'Optik Summer Internship Video',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+        technologies: ['Adobe Premiere Pro'],
         imageUrl: '/images/Projects/VideoProject.png',
         projectUrl: '/projects/project2'
       },

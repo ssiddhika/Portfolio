@@ -10,10 +10,11 @@ interface ProjectCardProps {
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, technologies, imageUrl, projectUrl }) => {
-    console.log("Image URL:", imageUrl);
-    return (
-    <div className="aspect-w-16 aspect-h-9flex flex-col bg-base-100 rounded-lg shadow-lg overflow-hidden ">
-      <Image src={imageUrl} alt={title} width={600} height={400} className="w-full object-cover" />
+  return (
+    <div className="flex flex-col bg-base-100 rounded-lg shadow-lg overflow-hidden">
+      <div className="relative w-full h-52">
+        <Image src={imageUrl} alt={title} layout="fill" objectFit="cover" className="w-full h-full" />
+      </div>
       <div className="p-4 flex flex-col justify-between">
         <div>
           <h3 className="text-xl font-bold text-base-content mb-2">{title}</h3>
