@@ -15,13 +15,24 @@ const Navbar = () => {
   }, [theme]);
 
   return (
-    
     <div className="navbar bg-base-100 shadow-md rounded-lg">
       <div className="navbar-start">
         <Link href="/" className="btn btn-ghost normal-case text-xl">Siddhika</Link>
       </div>
-      <div className="navbar-end">
-        <div className="flex-none">
+      <div className="navbar-end flex items-center">
+        <div className="hidden lg:flex">
+          <ul className="menu menu-horizontal p-0">
+          <li><Link href="/">Home</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/projects">Projects</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
+          </ul>
+        </div>
+        <button onClick={toggleTheme} className="btn btn-ghost ml-4">
+          {theme === 'dracula' ? '🌙' : '☀️'}
+        </button>
+        <div className="lg:hidden">
           <div className="dropdown dropdown-end">
             <label tabIndex={0} className="btn btn-ghost btn-circle">
               <div className="indicator">
@@ -36,11 +47,9 @@ const Navbar = () => {
               <li><Link href="/projects">Projects</Link></li>
               <li><Link href="/blog">Blog</Link></li>
               <li><Link href="/contact">Contact</Link></li>
+              <li><Link href="/">Home</Link></li>
             </ul>
           </div>
-          <button onClick={toggleTheme} className="btn btn-ghost">
-            {theme === 'dracula' ? '🌙' : '☀️'}
-          </button>
         </div>
       </div>
     </div>
