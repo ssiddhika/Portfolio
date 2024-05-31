@@ -6,6 +6,9 @@
     body {
       class: 'theme-dracula';
 
+      html {
+        scroll-behavior: smooth;
+      }
     }
   }
   
