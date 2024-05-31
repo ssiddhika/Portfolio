@@ -36,10 +36,10 @@ const AboutPage = () => {
               </p>
 
               <p className="text-normal mt-4">
-                Currently, I work as a coding instructor for young kids where I teach STEM subjects.
+                Currently, I work as a coding instructor for young kids where I <strong>teach STEM</strong> subjects.
                  This allows me to share my passion for
-                technology and witness the growth and excitement in kids as they unlock new
-                skills and see their potential in real time.
+                technology and witness the growth and excitement in kids as they <strong>unlock new
+                skills and see their potential</strong> in real time.
                 </p>
             </div>
           </div>
