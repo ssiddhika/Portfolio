@@ -124,7 +124,7 @@ const AboutPage = () => {
                 Recently I've really valued
                 the <strong>introspection</strong> and timeless elements of the <strong> human experience
                    </strong> found in non-fiction and classics.
-                 Currently, I've been enjoying the works of Franz Kafka and Osamu Dazai.
+                 Currently, I'm enjoying the works of Franz Kafka and Osamu Dazai.
               </p>
             </div>
             <div className="w-full md:w-1/2 mt-8 mb-4 md:mb-0">
