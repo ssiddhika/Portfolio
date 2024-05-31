@@ -24,16 +24,23 @@ const AboutPage = () => {
                 />
               </div>
             </div>
-            <div className="w-full md:w-1/2 text-center md:text-left">
-              <h1 className="text-4xl font-bold text-primary mb-4">A bit more about me!</h1>
+            <div className="w-full md:w-1/2 text-center mt-4 md:text-left">
+              <h1 className="text-4xl font-bold text-primary mt-8 mb-4">A bit more about me!</h1>
               <p className="text-base-content">
                 I am a curious <strong>learner, designer, and developer</strong>. I currently study engineering and business
                 at UTS and enjoy delving into projects and seeing concepts grow from <strong>ideation to creation.</strong>
               </p>
               <p className="text-base-content mt-4">
-                What excites me about this industry is its ability to simplify and solve real-world problems, promote continuous learning, and 
+                What excites me about this industry is its ability to solve real-world problems, promote continuous learning, and 
                 push the boundaries of <strong>knowledge&nbsp;and&nbsp;impact</strong>. 
               </p>
+
+              <p className="text-normal mt-4">
+                Currently, I work as a coding instructor for young kids where I teach STEM subjects.
+                 This allows me to share my passion for
+                technology and witness the growth and excitement in kids as they unlock new
+                skills and see their potential in real time.
+                </p>
             </div>
           </div>
         </section>
@@ -51,6 +58,7 @@ const AboutPage = () => {
               <p className="text-normal mt-4">
                 The opportunity to tackle real-world problems has been an unmatched learning experience. I can&apos;t wait to see what else I get up to!
               </p>
+            
             </div>
             <div className="w-full md:w-1/2 mb-4 md:mb-0">
               <div className="relative w-full h-48 md:h-64">
