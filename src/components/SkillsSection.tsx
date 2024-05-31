@@ -11,86 +11,48 @@ const SkillsSection = () => {
           The skills, tools, and technologies I have experience in:
         </p>
         <div className="mb-12">
-          <h3 className="text-1xl lg:text-2xl font-semibold text-neutral mb-4 text-center">
+          <h3 className="text-xl lg:text-2xl font-semibold text-neutral mb-4 text-center">
             Tech Stack
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/JavaScript.svg" alt="JavaScript" width={64} height={64} />
-              <p className="mt-2 text-base-content">JavaScript</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/Typescript.svg" alt="TypeScript" width={64} height={64} />
-              <p className="mt-2 text-base-content">TypeScript</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/React.svg" alt="React" width={64} height={64} />
-              <p className="mt-2 text-base-content">React</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/Nextjs.svg" alt="Next.js" width={64} height={64} />
-              <p className="mt-2 text-base-content">Next.js</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/Node.svg" alt="Node.js" width={64} height={64} />
-              <p className="mt-2 text-base-content">Node.js</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/Tailwind.svg" alt="Tailwind CSS" width={64} height={64} />
-              <p className="mt-2 text-base-content">Tailwind CSS</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/Java.svg" alt="Java" width={64} height={64} />
-              <p className="mt-2 text-base-content">Java</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/Python.svg" alt="Python" width={64} height={64} />
-              <p className="mt-2 text-base-content">Python</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/CSharp.svg" alt="C#" width={64} height={64} />
-              <p className="mt-2 text-base-content">C#</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/C++.svg" alt="C++" width={64} height={64} />
-              <p className="mt-2 text-base-content">C++</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/html.svg" alt="HTML" width={64} height={64} />
-              <p className="mt-2 text-base-content">HTML</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack/MongoDB.svg" alt="MongoDB" width={64} height={64} />
-              <p className="mt-2 text-base-content">MongoDB</p>
-            </div>
+            {[
+              { src: "/images/TechStack/JavaScript.svg", alt: "JavaScript" },
+              { src: "/images/TechStack/Typescript.svg", alt: "TypeScript" },
+              { src: "/images/TechStack/React.svg", alt: "React" },
+              { src: "/images/TechStack/Nextjs.svg", alt: "Next.js" },
+              { src: "/images/TechStack/Node.svg", alt: "Node.js" },
+              { src: "/images/TechStack/Tailwind.svg", alt: "Tailwind CSS" },
+              { src: "/images/TechStack/Java.svg", alt: "Java" },
+              { src: "/images/TechStack/Python.svg", alt: "Python" },
+              { src: "/images/TechStack/CSharp.svg", alt: "C#" },
+              { src: "/images/TechStack/C++.svg", alt: "C++" },
+              { src: "/images/TechStack/html.svg", alt: "HTML" },
+              { src: "/images/TechStack/MongoDB.svg", alt: "MongoDB" },
+            ].map((tech, index) => (
+              <div key={index} className="flex flex-col items-center transition-transform transform hover:scale-105">
+                <Image src={tech.src} alt={tech.alt} width={64} height={64} />
+                <p className="mt-2 text-base-content">{tech.alt}</p>
+              </div>
+            ))}
           </div>
         </div>
         <div>
-          <h4 className="text-1xl lg:text-2xl font-semibold text-neutral  mb-4 text-center">
+          <h4 className="text-xl lg:text-2xl font-semibold text-neutral mb-4 text-center">
             Other Technical Skills
           </h4>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
-            
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//Adobe.svg" alt="Adobe Creative Suite" width={64} height={64} />
-              <p className="mt-2 text-base-content">Adobe Creative Suite</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//Figma.svg" alt="Figma" width={64} height={64} />
-              <p className="mt-2 text-base-content">Figma</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//Jira.svg" alt="Jira" width={64} height={64} />
-              <p className="mt-2 text-base-content">Jira</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//Confluence.svg" alt="Confluence" width={64} height={64} />
-              <p className="mt-2 text-base-content">Confluence</p>
-            </div>
-            <div className="flex flex-col items-center">
-              <Image src="/images/TechStack//VSCode.svg" alt="Visual Studio Code" width={64} height={64} />
-              <p className="mt-2 text-base-content">VSCode</p>
-            </div>
+            {[
+              { src: "/images/TechStack/Adobe.svg", alt: "Adobe Creative Suite" },
+              { src: "/images/TechStack/Figma.svg", alt: "Figma" },
+              { src: "/images/TechStack/Jira.svg", alt: "Jira" },
+              { src: "/images/TechStack/Confluence.svg", alt: "Confluence" },
+              { src: "/images/TechStack/VSCode.svg", alt: "Visual Studio Code" },
+            ].map((skill, index) => (
+              <div key={index} className="flex flex-col items-center transition-transform transform hover:scale-105">
+                <Image src={skill.src} alt={skill.alt} width={64} height={64} />
+                <p className="mt-2 text-base-content">{skill.alt}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>
@@ -99,6 +61,7 @@ const SkillsSection = () => {
 };
 
 export default SkillsSection;
+
 
 /* <div className="flex flex-col items-center">
               <Image src="/images/jira.svg" alt="Jira" width={64} height={64} />
