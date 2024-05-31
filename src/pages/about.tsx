@@ -106,6 +106,41 @@ const AboutPage = () => {
             </div>
           </div>
         </section>
+        <section className="mt-8 mb-12">
+          <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
+            <div className="w-full md:w-1/2 text-center md:text-left">
+              <h2 className="text-3xl font-bold text-secondary mb-2">Personal Life</h2>
+              <p className="text-normal">
+                Outside of my professional and academic pursuits, I enjoy engaging in gaming, reading, and running. 
+         
+              </p>
+              <p className=" mt-4 text-normal">
+                My all time favourite games are<strong> Minecraft</strong> , and <strong> Valorant</strong> (I main Brimstone and Killjoy lol).
+                
+              
+              </p>
+              <p className=" mt-4 text-normal">
+    
+                Recently I've really valued
+                the <strong>introspection</strong> and timeless elements of the <strong> human experience
+                   </strong> found in non-fiction and classics.
+                 Currently, I've been enjoying the works of Franz Kafka and Osamu Dazai.
+              </p>
+            </div>
+            <div className="w-full md:w-1/2 mt-8 mb-4 md:mb-0">
+              <div className="relative w-full h-48 md:h-64">
+                <Image
+                  src="/images/UTSLibrary.jpg"
+                  alt="sunset at uts"
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-lg shadow-md"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
       </div>
     </>
   );
