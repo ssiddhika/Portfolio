@@ -9,7 +9,8 @@ const HeroSection = () => {
             <h1 className="text-5xl lg:text-6xl font-bold text-base-content mb-4">
               Hi, I&apos;m
               <div className="block">
-                <span className="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent transition-all duration-500 hover:text-base-content">Siddhika.</span>
+                <span className="bg-gradient-to-r from-primary to-neutral bg-clip-text text-transparent transition-all duration-500 hover:text-base-content">
+                  Siddhika.</span>
               </div>
             </h1>
             <p className="text-lg lg:text-xl text-base-content">
