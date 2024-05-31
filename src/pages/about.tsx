@@ -65,7 +65,7 @@ const AboutPage = () => {
               <h2 className="text-3xl font-bold text-primary mb-4">Professional Experience</h2>
               <p className="mt-4 text-base-content">
               A few months ago, I wrapped up a gratifying three-month journey with <strong>Optik Consultancy</strong>, collaborating
-            with <strong>Hilti Group</strong> to streamline MEP design processes. This experience deepened my understanding of
+            with <strong>Hilti Group</strong> to streamline MEP (mechanical, electrical, and plumbing) design processes. This experience deepened my understanding of
             the construction and design industry, allowing me to apply my technical skills in new, impactful ways.
               </p>
       
@@ -74,7 +74,9 @@ const AboutPage = () => {
             instrumental in enhancing my learning experience and professional advancement.
               </p>
               <p className="mt-4 text-base-content">
-                Currently, I am seeking 
+                Currently, I am seeking further experience to become a better software engineer.
+                I look forward to using my knowledge, innovative thinking and leadership abilities to 
+                create impact on people's lives, industries, and the future! 
               </p>
             </div>
           </div>
