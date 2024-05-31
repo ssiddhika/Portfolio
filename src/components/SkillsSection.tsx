@@ -4,14 +4,14 @@ const SkillsSection = () => {
   return (
     <div className="bg-base-100 py-12 lg:py-16 rounded-lg shadow-xl">
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg">
-        <h2 className="text-3xl lg:text-4xl font-bold text-base-content mb-8 text-center">
+        <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-8 text-center">
           Skills
         </h2>
         <p className="text-lg lg:text-xl text-base-content mb-8 text-center">
           The skills, tools, and technologies I have experience in:
         </p>
         <div className="mb-12">
-          <h3 className="text-xl lg:text-2xl font-semibold text-neutral mb-4 text-center">
+          <h3 className="text-xl lg:text-2xl font-semibold text-primary mb-4 text-center">
             Tech Stack
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-8">
@@ -37,8 +37,8 @@ const SkillsSection = () => {
           </div>
         </div>
         <div>
-          <h4 className="text-xl lg:text-2xl font-semibold text-neutral mb-4 text-center">
-            Other Technical Skills
+          <h4 className="text-xl lg:text-2xl font-semibold text-primary mb-4 text-center">
+            Other Skills
           </h4>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
             {[

@@ -36,7 +36,7 @@ const RecentProjectsSection = () => {
   return (
     <div className="bg-base-100 py-12 lg:py-16 rounded-lg shadow-xl">
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg">
-        <h2 className="text-3xl lg:text-4xl font-bold text-base-content mb-8 text-center">
+        <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-8 text-center">
           Recent Projects
         </h2>
         <p className="text-lg lg:text-xl text-base-content mb-8 text-center">
