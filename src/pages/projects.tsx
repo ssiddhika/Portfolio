@@ -8,25 +8,26 @@ const projects = [
   {
     title: 'SME Growth Recommender Platform',
     description: 'Sample Text',
-    imageUrl: '/images/projects/SME.png',
+    imageUrl: '/images/Projects/SME.png',
     projectUrl: '/projects/project1'
   },
   {
     title: 'MEP Supports Tool',
     description: 'Collaborated with Hilti Group to streamline a design process regarding MEP (mechanical, electrical, plumbing) structures.',
-    imageUrl: '/images/projects/MEP.avif',
+    imageUrl: '/images/Projects/MEP.avif',
     projectUrl: '/projects/project2'
   },
   {
     title: 'Developer Portfolio',
     description: 'This is a sample project description. Random things are here in description. This is a sample project lorem ipsum generator for dummy content.',
-    imageUrl: '/images/projects/Portfolio.png',
+    imageUrl: '/images/Projects/Portfolio.png',
     projectUrl: '/projects/project3'
   },
   {
     title: 'Optik Summer Tradeshow',
     description: 'This is a sample project description. Random things are here in description. This is a sample project lorem ipsum generator for dummy content.',
-    imageUrl: '/images/projects/VideoProject.png',
+    imageUrl: '/images/Projects/VideoProject.png',
+    
     projectUrl: '/projects/project4'
   }
 ];
