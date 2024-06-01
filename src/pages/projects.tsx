@@ -27,7 +27,6 @@ const projects = [
     title: 'Optik Summer Tradeshow',
     description: 'This is a sample project description. Random things are here in description. This is a sample project lorem ipsum generator for dummy content.',
     imageUrl: '/images/Projects/VideoProject.png',
-    
     projectUrl: '/projects/project4'
   }
 ];
@@ -58,7 +57,7 @@ const ProjectPage = () => {
         <title>Projects</title>
       </Head>
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg py-12 lg:py-16">
-        <h1 className="text-3xl lg:text-4xl font-bold text-base-content mb-8">
+        <h1 className="text-3xl lg:text-4xl font-bold text-primary mb-8">
           Projects
         </h1>
         <p className="text-lg lg:text-xl text-base-content mb-8">
@@ -67,7 +66,7 @@ const ProjectPage = () => {
         <Carousel responsive={responsive}>
           {projects.map((project, index) => (
             <div key={index} className="p-4">
-              <div className="bg-white rounded-lg shadow-md overflow-hidden h-full flex flex-col" style={{ height: '400px' }}>
+              <div className="bg-base-100 rounded-lg shadow-md overflow-hidden h-full flex flex-col" style={{ height: '400px' }}>
                 <Link href={project.projectUrl} legacyBehavior>
                   <a className="flex flex-col h-full">
                     <div className="relative w-full h-48">
@@ -81,7 +80,7 @@ const ProjectPage = () => {
                     </div>
                     <div className="p-4 flex flex-col justify-between flex-grow">
                       <div>
-                        <h3 className="text-xl font-bold text-base-content mb-2">{project.title}</h3>
+                        <h3 className="text-xl font-bold text-secondary mb-2">{project.title}</h3>
                         <p className="text-base-content">{project.description}</p>
                       </div>
                       <div className="mt-4"></div>
