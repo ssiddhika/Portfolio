@@ -40,13 +40,13 @@ const SkillsSection = () => {
           <h4 className="text-xl lg:text-2xl font-semibold text-primary mb-4 text-center">
             Other Skills
           </h4>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-8">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8">
             {[
               { src: "/images/TechStack/Adobe.svg", alt: "Adobe Creative Suite" },
               { src: "/images/TechStack/Figma.svg", alt: "Figma" },
               { src: "/images/TechStack/Jira.svg", alt: "Jira" },
               { src: "/images/TechStack/Confluence.svg", alt: "Confluence" },
-              { src: "/images/TechStack/VSCode.svg", alt: "Visual Studio Code" },
+             
             ].map((skill, index) => (
               <div key={index} className="flex flex-col items-center transition-transform transform hover:scale-105">
                 <Image src={skill.src} alt={skill.alt} width={64} height={64} />
