@@ -14,16 +14,18 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     });
 
     const mailOptions = {
-      from: email,
-      to: process.env.RECIPIENT_EMAIL,
+      from: process.env.GMAIL_USER, // Use your Gmail account as the sender
+      to: process.env.RECIPIENT_EMAIL, // Recipient's email address
       subject: `New message from ${name}`,
-      text: message,
+      text: `You have received a new message from your contact form.\n\nName: ${name}\nEmail: ${email}\n\nMessage:\n${message}`,
+      replyTo: email // Sets the reply-to address to the sender's email
     };
 
     try {
       await transporter.sendMail(mailOptions);
       res.status(200).json({ success: true });
     } catch (error) {
+      console.error(error);
       res.status(500).json({ success: false, error: 'Email sending error' });
     }
   } else {
