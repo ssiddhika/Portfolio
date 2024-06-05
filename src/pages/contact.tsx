@@ -48,7 +48,7 @@ const ContactPage = () => {
   return (
     <>
       <Head>
-        <title>Contact | Siddhika&apos;s Portfolio</title>
+        <title>Contact Me</title>
       </Head>
       <div className="flex items-center justify-center min-h-screen py-8 px-4 lg:px-12">
         <div className="w-full max-w-lg">
