@@ -56,7 +56,7 @@ const AboutPage = () => {
                 Engaging in hands-on projects and collaborative teams, I&apos;ve developed a strong appreciation for the impact of software solutions on complex challenges.
               </p>
               <p className="text-normal mt-4">
-                The opportunity to tackle real-world problems has been an unmatched learning experience. I can&apos;t wait to see what else I get up to!
+                The opportunity to tackle real-world problems has been an incredible learning experience. I can&apos;t wait to see what else I get up to!
               </p>
             
             </div>
