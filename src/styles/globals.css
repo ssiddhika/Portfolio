@@ -18,6 +18,12 @@ html {
   100% { border-right-color: transparent; }
 }
 
+.parallax {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
 .typewriter {
   display: inline-block;
   overflow: hidden;
