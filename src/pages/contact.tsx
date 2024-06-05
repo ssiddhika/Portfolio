@@ -57,7 +57,7 @@ const ContactPage = () => {
               Contact Me
             </h1>
             <p className="text-lg lg:text-xl text-base-content mb-4">
-              Want to get in touch? Feel free to complete the form below! 😁
+              Want to get in touch? Feel free to complete the form&nbsp;below! 😁
             </p>
           </div>
           <div className="bg-base-100 p-8 rounded-lg shadow-md">
