@@ -21,7 +21,7 @@ const Home = () => {
         <IntroSection />
         <AboutSection />
         <SkillsSection />
-
+ 
         <RecentProjectsSection /> 
       {/* Include other sections here */}
      
