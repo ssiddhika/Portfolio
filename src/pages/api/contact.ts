@@ -1,18 +1,32 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
+import nodemailer from 'nodemailer';
 
-export default function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === 'POST') {
     const { name, email, message } = req.body;
 
-    // Here, you would typically handle the form submission, e.g., save to a database or send an email.
-    console.log('Name:', name);
-    console.log('Email:', email);
-    console.log('Message:', message);
+    const transporter = nodemailer.createTransport({
+      service: 'Gmail',
+      auth: {
+        user: process.env.GMAIL_USER,
+        pass: process.env.GMAIL_PASS,
+      },
+    });
 
-    // Respond with a success message
-    res.status(200).json({ success: true });
+    const mailOptions = {
+      from: email,
+      to: process.env.RECIPIENT_EMAIL,
+      subject: `New message from ${name}`,
+      text: message,
+    };
+
+    try {
+      await transporter.sendMail(mailOptions);
+      res.status(200).json({ success: true });
+    } catch (error) {
+      res.status(500).json({ success: false, error: 'Email sending error' });
+    }
   } else {
-    // Handle any other HTTP method
     res.setHeader('Allow', ['POST']);
     res.status(405).end(`Method ${req.method} Not Allowed`);
   }
