@@ -24,8 +24,8 @@ module.exports = {
   plugins: [require('daisyui')],
   daisyui: {
     themes: [
-      'cupcake', // Default theme for light mode
-      'dracula', // Theme for dark mode
+      "garden",
+      "dracula",
     ],
   },
 };
