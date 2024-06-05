@@ -115,7 +115,7 @@ const AboutPage = () => {
          
               </p>
               <p className=" mt-4 text-normal">
-                My all time favourite games are<strong> Minecraft</strong> , and <strong> Valorant</strong> (I main Brimstone and Killjoy lol).
+                My all time favourite games are<strong> Minecraft </strong>and <strong>Valorant</strong> (I main Brimstone and Killjoy lol).
                 
               
               </p>
