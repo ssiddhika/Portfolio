@@ -49,8 +49,8 @@ const AboutPage = () => {
           <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
             <div className="w-full md:w-1/2 text-center md:text-left">
               <h2 className="text-3xl font-bold text-secondary mb-2">Currently Studying At</h2>
-              <h3 className="text-2xl font-semibold text-secondary-focus mb-4">University of Technology Sydney</h3>
-              <h4 className="text-xl font-medium text-accent mb-4">Bachelor of Engineering (Honours), Bachelor of&nbsp;Business</h4>
+              <h3 className="text-2xl font-semibold text-secondary mb-4">University of Technology Sydney</h3>
+              <h4 className="text-xl font-medium text-info mb-4">Bachelor of Engineering (Honours), Bachelor of&nbsp;Business</h4>
               <p className="text-normal">
                 At UTS, I&apos;ve embraced a range of opportunities and connections that have shaped my <strong>personal and professional</strong> trajectory. 
                 Engaging in hands-on projects and collaborative teams, I&apos;ve developed a strong appreciation for the impact of software solutions on complex challenges.

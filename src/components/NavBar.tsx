@@ -6,7 +6,7 @@ const Navbar = () => {
 
   const toggleTheme = () => {
     // CHANGE THEME
-    const newTheme = theme === 'dracula' ? 'garden' : 'dracula';
+    const newTheme = theme === 'dracula' ? 'cmyk' : 'dracula';
     setTheme(newTheme);
     document.documentElement.setAttribute('data-theme', newTheme);
   };
