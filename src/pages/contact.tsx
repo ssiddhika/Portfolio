@@ -50,17 +50,19 @@ const ContactPage = () => {
         <title>Contact | Siddhika&apos;s Portfolio</title>
       </Head>
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg py-12 lg:py-16">
-        <h1 className="text-3xl lg:text-4xl font-bold text-primary mb-8">
-          Contact
-        </h1>
-        <p className="text-lg lg:text-xl text-base-content mb-8">
-          Want to  get in touch? Feel free to complete the form below! 😁
-        </p>
-        <div className="bg-base-100 p-8 rounded-lg shadow-md">
+        <div className="text-center mb-12">
+          <h1 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
+            Contact Me
+          </h1>
+          <p className="text-lg lg:text-xl text-base-content">
+            Want to get in touch? Feel free to complete the form below! 😁
+          </p>
+        </div>
+        <div className="bg-base-100 p-8 rounded-lg shadow-md max-w-2xl mx-auto">
           <form onSubmit={handleSubmit}>
-            <div className="form-control mb-4">
+            <div className="form-control mb-6">
               <label className="label text-neutral">
-                <span className="label-text">Name</span>
+                <span className="label-text text-lg font-semibold">Name</span>
               </label>
               <input
                 type="text"
@@ -72,9 +74,9 @@ const ContactPage = () => {
                 required
               />
             </div>
-            <div className="form-control mb-4">
+            <div className="form-control mb-6">
               <label className="label text-neutral">
-                <span className="label-text">Email</span>
+                <span className="label-text text-lg font-semibold">Email</span>
               </label>
               <input
                 type="email"
@@ -86,9 +88,9 @@ const ContactPage = () => {
                 required
               />
             </div>
-            <div className="form-control mb-4">
+            <div className="form-control mb-6">
               <label className="label text-neutral">
-                <span className="label-text">Message</span>
+                <span className="label-text text-lg font-semibold">Message</span>
               </label>
               <textarea
                 name="message"
@@ -97,13 +99,14 @@ const ContactPage = () => {
                 className="textarea textarea-bordered w-full"
                 placeholder="Your Message"
                 required
+                rows={5}
               ></textarea>
             </div>
             <div className="form-control">
-              <button type="submit" className="btn btn-primary">Send Message</button>
+              <button type="submit" className="btn btn-primary w-full">Send Message</button>
             </div>
           </form>
-          {status && <p className="mt-4 text-neutral">{status}</p>}
+          {status && <p className="mt-4 text-neutral text-center">{status}</p>}
         </div>
       </div>
     </>
