@@ -1,18 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Apply the dark theme class when the system prefers dark mode */
-@media (prefers-color-scheme: dark) {
-    body {
-      class: 'theme-dracula';
 
-      html {
-        scroll-behavior: smooth;
-      }
-    }
-    body, .container, .section {
-      position: relative;
-      z-index: 1;
-    }
-  }
-  
+html {
+  scroll-behavior: smooth;
+}
+
+/* Typewriter effect */
+@keyframes typewriter {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  0% { border-right-color: transparent; }
+  50% { border-right-color: black; }
+  100% { border-right-color: transparent; }
+}
+
+.typewriter {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  animation: 
+    typewriter 2s steps(40, end) forwards,
+    blink .75s step-end infinite;
+}
+
+.typewriter-delay {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: 
+    typewriter 2s steps(40, end) 2s forwards,
+    blink .75s step-end infinite 2s;
+}
+
+/* Ensuring z-index context */
+body, .container, .section {
+  position: relative;
+  z-index: 1;
+}

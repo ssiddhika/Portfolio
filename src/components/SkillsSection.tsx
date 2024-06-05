@@ -29,7 +29,7 @@ const SkillsSection = () => {
               { src: "/images/TechStack/html.svg", alt: "HTML" },
               { src: "/images/TechStack/MongoDB.svg", alt: "MongoDB" },
             ].map((tech, index) => (
-              <div key={index} className="flex flex-col items-center transition-transform transform hover:scale-105">
+              <div key={index} className="flex flex-col items-center transition-transform transform hover:scale-90 hover:-translate-y-2">
                 <Image src={tech.src} alt={tech.alt} width={64} height={64} />
                 <p className="mt-2 text-base-content">{tech.alt}</p>
               </div>
@@ -48,7 +48,7 @@ const SkillsSection = () => {
               { src: "/images/TechStack/Confluence.svg", alt: "Confluence" },
              
             ].map((skill, index) => (
-              <div key={index} className="flex flex-col items-center transition-transform transform hover:scale-105">
+              <div key={index} className="flex flex-col items-center transition-transform transform hover:scale-90 hover:-translate-y-2">
                 <Image src={skill.src} alt={skill.alt} width={64} height={64} />
                 <p className="mt-2 text-base-content">{skill.alt}</p>
               </div>
@@ -61,9 +61,3 @@ const SkillsSection = () => {
 };
 
 export default SkillsSection;
-
-
-/* <div className="flex flex-col items-center">
-              <Image src="/images/jira.svg" alt="Jira" width={64} height={64} />
-              <p className="mt-2 text-base-content">Jira</p>
-            </div> ? */
