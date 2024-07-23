@@ -12,6 +12,7 @@ const Home = () => {
         <meta name="description" content="Siddhika Prasad&apos;s Software Engineering Portfolio" />
       </Head>
       <IntroSection />
+      
       <AboutSection />
       <SkillsSection />
       <RecentProjectsSection />
