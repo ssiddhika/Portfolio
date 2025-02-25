@@ -15,7 +15,7 @@ const AboutSection = () => {
         <div className="flex flex-col md:flex-row items-center justify-between space-y-6 md:space-y-0">
           <div className="flex-shrink-0 about-image">
             <Image 
-              src="/images/Siddhika.jpg" 
+              src="/images/sid.jpg" 
               alt="Siddhika"
               width={300}
               height={300}
@@ -30,7 +30,7 @@ const AboutSection = () => {
               I&apos;ve always been fascinated by technology and its potential to simplify our lives. As a software engineering and business student at the University of Technology Sydney (UTS), I&apos;m passionate about using tech to innovate and solve problems.
             </p>
             <p className="text-lg lg:text-xl text-base-content mb-4 about-text">
-              What excites me most about this field is its power to address real-world problems and create social impact. I&apos;m dedicated to leveraging my technical knowledge, innovative thinking, and leadership skills to develop solutions that meet current needs and anticipate future challenges.
+              What excites me most about this field is its power to address real-world problems and create impact. I&apos;m dedicated to leveraging my technical knowledge, innovative thinking, and leadership skills to develop solutions that meet current needs and anticipate future challenges.
             </p>
             <p className="text-lg lg:text-xl text-base-content mb-4 about-text">
               Currently, in my third year of study, I&apos;m focusing on full-stack development. I love bringing the technical and visual elements of digital products to life and seeing projects through from ideation to completion.

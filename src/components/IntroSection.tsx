@@ -28,14 +28,11 @@ const HeroSection = () => {
               With a love for continuous learning, tackling challenging problems and creating solutions that matter - 
               I am eager in using technology to make an impact.
             </p>
-            <p className="font-semibold italic text-lg lg:text-xl text-error hero-text">
-              Note: This portfolio is currently a work in progress.
-            </p>
             <p className="text-secondary font-semibold text-lg mt-2 hero-text">📍 Sydney, Australia</p>
           </div>
           <div className="relative flex-shrink-0 hero-image">
             <Image
-              src="/images/sid.jpg"
+              src="/images/selfie.jpg"
               alt="Siddhika"
               width={300}
               height={300}
