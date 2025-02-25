@@ -32,7 +32,7 @@ const HeroSection = () => {
           </div>
           <div className="relative flex-shrink-0 hero-image">
             <Image
-              src="/images/selfie.jpg"
+              src="/images/IMG_6371.JPG"
               alt="Siddhika"
               width={300}
               height={300}
