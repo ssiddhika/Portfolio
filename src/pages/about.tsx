@@ -89,10 +89,7 @@ const AboutPage = () => {
                 with <strong>Hilti Group</strong> to streamline MEP (mechanical, electrical, and plumbing) design processes. This experience deepened my understanding of
                 the construction and design industry, allowing me to apply my technical skills in new, impactful ways.
               </p>
-              <p className="mt-4 text-base-content">
-                I am grateful for the mentorship received from industry experts, whose guidance was
-                instrumental in enhancing my learning experience and professional advancement.
-              </p>
+    
               <p className="mt-4 text-base-content">
                 Currently, I am seeking further experience to become a better software engineer.
                 I look forward to using my knowledge, innovative thinking, and leadership abilities to 

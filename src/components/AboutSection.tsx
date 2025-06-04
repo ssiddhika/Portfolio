@@ -33,7 +33,7 @@ const AboutSection = () => {
               What excites me most about this field is its power to address real-world problems and create impact. I&apos;m dedicated to leveraging my technical knowledge, innovative thinking, and leadership skills to develop solutions that meet current needs and anticipate future challenges.
             </p>
             <p className="text-lg lg:text-xl text-base-content mb-4 about-text">
-              Currently, in my third year of study, I&apos;m focusing on full-stack development. I love bringing the technical and visual elements of digital products to life and seeing projects through from ideation to completion.
+              Currently in my penultimate year, I&apos;m focusing on full-stack development. I love bringing the technical and visual elements of digital products to life and seeing projects through from ideation to completion.
             </p>
             <p className="text-lg lg:text-xl font-semibold text-secondary about-text">
               Feel free to reach out and say hello! 😊
