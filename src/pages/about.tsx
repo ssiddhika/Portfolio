@@ -6,60 +6,56 @@ const AboutPage = () => {
     <>
       <Head>
         <title>About Me</title>
-        <meta name="description" content="About" />
+        <meta name="description" content="About Siddhika Prasad - Software Engineering and Business Student" />
       </Head>
       <div className="p-8 max-w-screen-lg mx-auto">
-        <section className="mb-12">
+        {/* Introduction */}
+        <section className="mb-16">
           <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
-            <div className="w-full md:w-1/2 mb-4 md:mb-0">
-              <div className="relative w-full h-48 md:h-64">
+            <div className="w-full md:w-1/2 mb-6 md:mb-0">
+              <div className="relative w-full h-64">
                 <Image
                   src="/images/Grad.jpg"
-                  alt="Description of Image 1"
+                  alt="Siddhika Prasad"
                   layout="fill"
                   objectFit="cover"
                   className="rounded-lg shadow-md"
                 />
               </div>
             </div>
-            <div className="w-full md:w-1/2 text-center mt-4 md:text-left">
-              <h1 className="text-4xl font-bold text-primary mt-8 mb-4">A bit more about me!</h1>
-              <p className="text-base-content">
-                I am a curious <strong>learner, designer, and developer</strong>. I currently study engineering and business
-                at UTS and enjoy delving into projects and seeing concepts grow from <strong>ideation to creation.</strong>
+            <div className="w-full md:w-1/2 text-center md:text-left">
+              <h1 className="text-4xl font-bold text-primary mb-4">About Me</h1>
+              <p className="text-base-content text-lg">
+              I am a curious developer, designer, and leader currently studying Software Engineering and Business at UTS. 
+                I’m passionate about using code, design, and communication to solve real-world problems and create meaningful impact.
               </p>
-              <p className="text-base-content mt-4">
-                What excites me about this industry is its ability to solve real-world problems, promote continuous learning, and 
-                push the boundaries of <strong>knowledge&nbsp;and&nbsp;impact</strong>. 
-              </p>
-              <p className="text-normal mt-4">
-                Currently, I work as a coding instructor for young kids where I <strong>teach STEM</strong> subjects.
-                This allows me to share my passion for technology and witness the growth and excitement in kids as they <strong>unlock new
-                skills and see their potential</strong> in real time.
+              <p className="text-base-content text-lg mt-4">
+                I love building systems from the ground up and collaborating with people who care about making tech more human.
               </p>
             </div>
           </div>
         </section>
 
-        <section className="mb-12">
+        {/* Education & Growth */}
+        <section className="mb-16">
           <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl font-bold text-secondary mb-2">Currently Studying At</h2>
-              <h3 className="text-2xl font-semibold text-secondary mb-4">University of Technology Sydney</h3>
-              <h4 className="text-xl font-medium text-info mb-4">Bachelor of Engineering (Honours), Bachelor of&nbsp;Business</h4>
-              <p className="text-normal">
-                At UTS, I&apos;ve embraced a range of opportunities and connections that have shaped my <strong>personal and professional</strong> trajectory. 
-                Engaging in hands-on projects and collaborative teams, I&apos;ve developed a strong appreciation for the impact of software solutions on complex challenges.
+              <h2 className="text-3xl font-bold text-secondary mb-2">Education & Growth</h2>
+              <h3 className="text-xl font-medium text-info mb-4">University of Technology Sydney</h3>
+              <p className="text-base-content text-lg">
+                I’m currently pursuing a double degree in Software Engineering and Human Resource Management. 
+                My academic journey has been shaped by hands-on projects, mentorship roles, and internships.
               </p>
-              <p className="text-normal mt-4">
-                The opportunity to tackle real-world problems has been an incredible learning experience. I can&apos;t wait to see what else I get up to!
+              <p className="text-base-content text-lg mt-4">
+                These experiences have taught me to think critically, lead effectively, and build with empathy. 
+                I thrive in environments where curiosity and continuous learning are valued.
               </p>
             </div>
-            <div className="w-full md:w-1/2 mb-4 md:mb-0">
-              <div className="relative w-full h-48 md:h-64">
+            <div className="w-full md:w-1/2 mt-6 md:mt-0">
+              <div className="relative w-full h-64">
                 <Image
                   src="/images/SUNSET.jpg"
-                  alt="sunset at uts"
+                  alt="UTS Sunset"
                   layout="fill"
                   objectFit="cover"
                   className="rounded-lg shadow-md"
@@ -69,13 +65,14 @@ const AboutPage = () => {
           </div>
         </section>
 
+        {/* Experience & Impact */}
         <section>
           <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
-            <div className="w-full md:w-1/2 mb-4 md:mb-0">
-              <div className="relative w-full h-48 md:h-64">
+            <div className="w-full md:w-1/2 mb-6 md:mb-0">
+              <div className="relative w-full h-64">
                 <Image
                   src="/images/Table.jpg"
-                  alt="Siddhika"
+                  alt="Siddhika working"
                   layout="fill"
                   objectFit="cover"
                   className="rounded-xl shadow-lg"
@@ -83,46 +80,24 @@ const AboutPage = () => {
               </div>
             </div>
             <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl font-bold text-primary mb-4">Professional Experience</h2>
-              <p className="mt-4 text-base-content">
-                A few months ago, I wrapped up a gratifying three-month journey with <strong>Optik Consultancy</strong>, collaborating
-                with <strong>Hilti Group</strong> to streamline MEP (mechanical, electrical, and plumbing) design processes. This experience deepened my understanding of
-                the construction and design industry, allowing me to apply my technical skills in new, impactful ways.
-              </p>
-    
-              <p className="mt-4 text-base-content">
-                Currently, I am seeking further experience to become a better software engineer.
-                I look forward to using my knowledge, innovative thinking, and leadership abilities to 
-                create impact on people's lives, industries, and the future! 
-              </p>
-            </div>
-          </div>
-        </section>
-        <section className="mt-8 mb-12">
-          <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
-            <div className="w-full md:w-1/2 text-center md:text-left">
-              <h2 className="text-3xl font-bold text-secondary mb-2">Personal Life</h2>
-              <p className="text-normal">
-                Outside of my professional and academic pursuits, I enjoy engaging in gaming, reading, and running. 
-              </p>
-              <p className="mt-4 text-normal">
-                My all time favourite games are<strong> Minecraft </strong>and <strong>Valorant</strong> (I main Brimstone and Killjoy lol).
-              </p>
-              <p className="mt-4 text-normal">
-                Recently I've really valued the <strong>introspection</strong> and timeless elements of the <strong>human experience</strong> found in non-fiction and classics.
-                Currently, I'm enjoying the works of Franz Kafka and Osamu Dazai.
-              </p>
-            </div>
-            <div className="w-full md:w-1/2 mt-8 mb-4 md:mb-0">
-              <div className="relative w-full h-48 md:h-64">
-                <Image
-                  src="/images/UTSLibrary.jpg"
-                  alt="sunset at uts"
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-lg shadow-md"
-                />
-              </div>
+              <h2 className="text-3xl font-bold text-primary mb-4">Experience & Impact</h2>
+              <ul className="list-disc list-inside text-base-content text-lg space-y-4">
+                <li>
+                  <strong>Engineering Intern at Optik Consultancy:</strong> Developed a plugin for Hilti to automate MEP design workflows using Autodesk Navisworks and .NET.
+                </li>
+                <li>
+                  <strong>AI in Space Intern at Powerhouse Museum:</strong> Co-facilitated a 3-day student workshop on spacecraft design and AI ethics with Space Machines Company.
+                </li>
+                <li>
+                  <strong>Project Co-Lead at AusBizGrowth.ai:</strong> Built a full-stack web app to identify high-growth SMEs; successfully pitched to Business NSW.
+                </li>
+                <li>
+                  <strong>UTS Business School Mentor:</strong> Mentored over 50 students and co-led workshops for 200+ attendees, helping build inclusive classroom environments.
+                </li>
+                <li>
+                  <strong>Head Teacher at Code Camp:</strong> Delivered engaging STEM classes, increasing student retention by 35% through strong facilitation and communication.
+                </li>
+              </ul>
             </div>
           </div>
         </section>
