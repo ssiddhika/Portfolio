@@ -27,13 +27,13 @@ const AboutSection = () => {
               Learn a bit about me!
             </h2>
             <p className="text-lg lg:text-xl text-base-content mb-4 about-text">
-              I&apos;ve always been fascinated by technology and its potential to simplify our lives. As a software engineering and business student at the University of Technology Sydney (UTS), I&apos;m passionate about using tech to innovate and solve problems.
+              I've always been fascinated by technology and its ability to simplify our lives. I'm a penultimate-year Software Engineering and Business student at UTS (University of Technology Sydney), ready to use technology to solve real-world problems and create meaningful impact.
             </p>
             <p className="text-lg lg:text-xl text-base-content mb-4 about-text">
-              What excites me most about this field is its power to address real-world problems and create impact. I&apos;m dedicated to leveraging my technical knowledge, innovative thinking, and leadership skills to develop solutions that meet current needs and anticipate future challenges.
+              With a focus on full-stack development, I enjoy bringing ideas to life from concept to completion.
             </p>
             <p className="text-lg lg:text-xl text-base-content mb-4 about-text">
-              Currently in my penultimate year, I&apos;m focusing on full-stack development. I love bringing the technical and visual elements of digital products to life and seeing projects through from ideation to completion.
+              What excites me most about this field is its power to address real-world problems and create impact. I'm dedicated to leveraging my technical knowledge, innovative thinking, and leadership skills to develop solutions that meet current needs and anticipate future challenges.
             </p>
             <p className="text-lg lg:text-xl font-semibold text-secondary about-text">
               Feel free to reach out and say hello! 😊

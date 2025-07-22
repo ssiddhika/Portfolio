@@ -42,7 +42,7 @@ const AboutPage = () => {
             <div className="w-full md:w-1/2 text-center md:text-left">
               <h2 className="text-3xl font-bold text-secondary mb-2">Education & Growth</h2>
               <h3 className="text-xl font-medium text-info mb-4">University of Technology Sydney</h3>
-              <p className="text-base-content text-lg">
+              <p className="text-lg text-base-content ">
                 I’m currently pursuing a double degree in Software Engineering and Human Resource Management. 
                 My academic journey has been shaped by hands-on projects, mentorship roles, and internships.
               </p>
