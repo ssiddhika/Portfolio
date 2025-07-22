@@ -2,7 +2,16 @@ import ProjectCard from './ProjectCard';
 
 const RecentProjectsSection = () => {
   const projects = [
+
     {
+      title: 'AI in Space Workshop',
+      description: 'Facilitated a holiday workshop with Space Machines Company focused on AI, spacecraft design and ethics.',
+      technologies: ['Adobe Photoshop', 'Adobe Firefly'],
+      imageUrl: '/images/Projects/Space.avif',
+      projectUrl: '/projects/project4'
+    },
+    {
+      
       title: 'SME Growth Recommender Platform',
       description: 'Front end demonstrator built for SMEs@UTS as part of Software Development Studio.',
       technologies: ['React', 'Next.js', 'Tailwind CSS', 'Figma', 'HTML', 'PayloadCMS', 'MongoDB'],
@@ -21,15 +30,9 @@ const RecentProjectsSection = () => {
         description: 'Personalised developer portfolio website, created to showcase my projects and experience.',
         technologies: ['JavaScript', 'Node.js', 'HTML', 'Tailwind CSS', 'DaisyUI', 'Next.js'],
         imageUrl: '/images/Projects/Portfolio.png',
-        projectUrl: '/projects/project2'
+        projectUrl: '/projects/project3'
       },
-      {
-        title: 'Optik Summer Internship Video',
-        description: 'Created a video to showcase intern insights, client reflections and faculty vision at Optik\'s tradeshow.',
-        technologies: ['Adobe Premiere Pro'],
-        imageUrl: '/images/Projects/VideoProject.png',
-        projectUrl: '/projects/project2'
-      },
+
     // Add more projects as needed
   ];
 
@@ -37,7 +40,7 @@ const RecentProjectsSection = () => {
     <div className="bg-base-100 py-12 lg:py-16 rounded-lg shadow-xl">
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg">
         <h2 className="text-3xl lg:text-4xl font-bold text-primary mb-8 text-center">
-          Recent Projects
+          Recently
         </h2>
         <p className="text-lg lg:text-xl text-base-content mb-8 text-center">
           Check out some things I&apos;ve recently completed!
