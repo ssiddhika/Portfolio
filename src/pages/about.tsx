@@ -67,17 +67,30 @@ const AboutPage = () => {
 
         {/* Experience & Impact */}
         <section>
-          <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
-            <div className="w-full md:w-1/2 mb-6 md:mb-0">
-              <div className="relative w-full h-64">
-                <Image
-                  src="/images/Table.jpg"
-                  alt="Siddhika working"
-                  layout="fill"
-                  objectFit="cover"
-                  className="rounded-xl shadow-lg"
-                />
-              </div>
+        <div className="flex flex-col md:flex-row items-center justify-between md:space-x-8">
+        <div className="w-full md:w-1/2 mb-6 md:mb-6">
+      <div className="relative w-full h-64">
+        <Image
+          src="/images/AAA.jpg"
+          alt="Siddhika working"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-xl shadow-lg"
+        />       
+        
+      </div>
+      <div className="w-full md:w-1/2 mb-6 md:mb-6"></div>
+      <div className="relative w-full h-64">
+        <Image
+          src="/images/Award.jpg"
+          alt="Siddhika working"
+          layout="fill"
+          objectFit="cover"
+          className="rounded-xl shadow-lg"
+        />       
+        
+      </div>
+      
             </div>
             <div className="w-full md:w-1/2 text-center md:text-left">
               <h2 className="text-3xl font-bold text-primary mb-4">Experience & Impact</h2>
