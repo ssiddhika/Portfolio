@@ -72,7 +72,7 @@ const AboutPage = () => {
       <div className="relative w-full h-64">
         <Image
           src="/images/AAA.jpg"
-          alt="Siddhika working"
+          alt="Siddhika at AAA awards"
           layout="fill"
           objectFit="cover"
           className="rounded-xl shadow-lg"
@@ -83,7 +83,7 @@ const AboutPage = () => {
       <div className="relative w-full h-64">
         <Image
           src="/images/Award.jpg"
-          alt="Siddhika working"
+          alt="Siddhika with Dean"
           layout="fill"
           objectFit="cover"
           className="rounded-xl shadow-lg"
