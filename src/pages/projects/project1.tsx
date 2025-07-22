@@ -1,11 +1,11 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-const Project5 = () => {
+const Project1 = () => {
   return (
     <>
       <Head>
-        <title>SME Growth Recommender | Siddhika&apos;s Portfolio</title>
+        <title>SME Growth Recommender</title>
         <meta name="description" content="A web-based platform built to identify high-growth SMEs using automation and data insights." />
       </Head>
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg py-12 lg:py-16">
@@ -106,4 +106,4 @@ const Project5 = () => {
   );
 };
 
-export default Project5;
+export default Project1;

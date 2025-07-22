@@ -1,99 +1,100 @@
 import Head from 'next/head';
 import Image from 'next/image';
 
-const Project2 = () => {
+const Project6 = () => {
   return (
     <>
       <Head>
-        <title>Hilti’s MEP Supports Tool | Siddhika&apos;s Portfolio</title>
+        <title>Hilti MEP Supports Tool | Siddhika&apos;s Portfolio</title>
+        <meta
+          name="description"
+          content="A Navisworks plugin to automate BIM analysis for MEP support suggestions, built during a consultancy internship with Optik and Hilti."
+        />
       </Head>
+
       <div className="container mx-auto px-8 lg:px-12 max-w-screen-lg py-12 lg:py-16">
-        <div className="bg-base-100 p-8 rounded-lg shadow-md">
-          <h1 className="text-4xl font-bold text-primary mb-8">
-            Hilti’s MEP Supports Tool
-          </h1>
-          <p className="text-lg lg:text-xl text-base-content mb-8">
-            This project involved developing a plugin for Autodesk Navisworks to streamline the analysis of BIM (Business Information Modelling) designs for MEP (mechanical, electrical, and plumbing) supports. Automating this process accelerates Hilti's quotation workflow.
-          </p>
-          
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-primary mb-4">Project Overview</h2>
-            <p className="text-base-content mb-4">
-              This was my first significant software development project, where I collaborated with a cross-functional team to deliver a solution for a client within a 12-week timeframe. This experience was part of my Optik Consultancy internship during the Summer of 2023.
-            </p>
-            <p className="text-base-content mb-4">
-              The project was highly rewarding and taught me a great deal about my capabilities. Gaining insights into a new industry, learning new programming languages, collaborating with professionals, and receiving mentorship in leadership were invaluable experiences.
-            </p>
-          </section>
+        {/* Title */}
+        <h1 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
+          Hilti’s MEP Supports Tool
+        </h1>
+        <p className="text-lg text-base-content mb-8">
+          A Navisworks plugin that automates the analysis of BIM (Building Information Modelling) designs for MEP (Mechanical, Electrical, Plumbing) support structures — helping streamline Hilti’s quotation workflow.
+        </p>
 
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-primary mb-4">Project Details</h2>
-            <p className="text-base-content mb-4">
-              Hilti receives BIM designs featuring MEP components that require supports such as T posts and trapezes. Analyzing these designs manually for quotation purposes is a time-consuming process. Our solution automated this analysis using a tool that maps drawings, cross-references them with a typicals database, and recommends suitable supports for quoting.
-            </p>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-primary mb-4">Tech Stack</h2>
-            <ul className="list-disc list-inside text-base-content mx-12">
-              <li className="mb-2">C#</li>
-              <li className="mb-2">.NET Framework</li>
-              <li className="mb-2">Windows Forms</li>
-              <li className="mb-2">Navisworks 2024 API</li>
-              <li className="mb-2">Navisworks Manage 2024</li>
-              <li className="mb-2">Revit 2024</li>
-              <li>MongoDB</li>
-            </ul>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-primary mb-4">Solution Process</h2>
-            <ol className="list-decimal list-inside text-base-content mx-12">
-              <li className="mb-2">Open the Navisworks file.</li>
-              <li className="mb-2">Select at least one MEP component.</li>
-              <li className="mb-2">Activate the plugin.</li>
-              <li className="mb-2">The analysis begins, categorising items by component (Mechanical, Electrical, or Plumbing).</li>
-              <li className="mb-2">Retrieve data, including size properties.</li>
-              <li className="mb-2">Calculate the shortest distance between the MEP component and the nearest wall, floor, or ceiling.</li>
-              <li className="mb-2">Determine whether the component is parallel or perpendicular to a wall.</li>
-              <li className="mb-2">Combine all variables and generate a spreadsheet listing the item, its properties, and the most suitable support.</li>
-            </ol>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-primary mb-4">Lessons Learned</h2>
-            <p className="text-base-content mb-4">
-              This project provided a deep dive into the construction and design industry. I gained hands-on experience in project management, unit testing, and integration testing. 
-              Working in a simulated agile scrum team, I honed my skills in managing a team, documenting progress, and conducting stakeholder meetings. 
-              These experiences significantly enhanced my leadership and teamwork abilities. 
-            </p>
-            <p className="text-base-content mb-4">
-              Since this was a niche project, there was a lot of research and testing to be done. 
-              I learnt to look into external resources and discussed project challenges with several
-              industry experts and postgraduate students to enhance understanding of technical capabilities.
-            </p>
-            <p className="text-base-content mb-4">
-            Moving forward, the MEP Support Suggestion plugin serves to assist Hilti in automating a quintessential process for their clientele. 
-            The final implementation will analyse all selected Mechanical, Electrical and Plumbing components and provide suitable support solutions.
-            </p>
-          </section>
-
-          <section className="mb-12">
-            <h2 className="text-3xl font-bold text-primary mb-4">Team Photo</h2>
-            <div className="relative w-full h-80 mb-4">
-              <Image
-                src="/images/Tradeshow.jpg" 
-                alt="Team Photo"
-                layout="fill"
-                objectFit="cover"
-                className="rounded-lg shadow-md"
-              />
-            </div>
-          </section>
+        {/* Image */}
+        <div className="relative w-full h-72 md:h-96 mb-10 rounded-xl overflow-hidden shadow-lg">
+          <Image 
+            src="/images/Projects/MEP.avif" 
+            alt="Hilti MEP Plugin Screenshot"
+            layout="fill"
+            objectFit="cover"
+          />
         </div>
+
+        {/* Project Overview */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-secondary mb-3">Project Overview</h2>
+          <p className="text-base lg:text-lg text-base-content mb-4">
+            Completed during my 2023 Summer internship at Optik Consultancy, this project involved designing and developing a Navisworks plugin for Hilti. Working in a cross-functional team over 12 weeks, we created a tool to help automate the quotation process for MEP supports in construction designs.
+          </p>
+          <p className="text-base lg:text-lg text-base-content">
+            It was my first end-to-end engineering project with a live client, and it gave me hands-on experience with an entirely new tech stack and industry.
+          </p>
+        </section>
+
+        {/* Project Details */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-secondary mb-3">Project Details</h2>
+          <p className="text-base lg:text-lg text-base-content mb-4">
+            Hilti receives BIM files containing MEP elements requiring structural supports like T-posts or trapezes. Traditionally, estimating these supports for quotations is manual and time-consuming.
+          </p>
+          <p className="text-base lg:text-lg text-base-content">
+            Our solution automated the process by analyzing component geometry, location, and orientation, then suggesting supports using a reference database — and exporting results into a detailed spreadsheet.
+          </p>
+        </section>
+
+        {/* Solution Process */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-secondary mb-3">Solution Workflow</h2>
+          <ul className="list-disc list-inside text-base lg:text-lg text-base-content space-y-2">
+            <li>Open a Navisworks file and select MEP components.</li>
+            <li>Activate the custom plugin to start analysis.</li>
+            <li>Plugin categorizes components as Mechanical, Electrical, or Plumbing.</li>
+            <li>Collects geometry and metadata including size and position.</li>
+            <li>Calculates proximity to walls, floors, and ceilings.</li>
+            <li>Assesses orientation (parallel/perpendicular).</li>
+            <li>Generates a report with suggested supports and component data.</li>
+          </ul>
+        </section>
+
+        {/* Tech Stack */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-secondary mb-3">Technologies Used</h2>
+          <div className="flex flex-wrap gap-3 mt-4">
+            <span className="badge badge-outline">C#</span>
+            <span className="badge badge-outline">.NET Framework</span>
+            <span className="badge badge-outline">Windows Forms</span>
+            <span className="badge badge-outline">Navisworks 2024 API</span>
+            <span className="badge badge-outline">Revit 2024</span>
+            <span className="badge badge-outline">MongoDB</span>
+          </div>
+        </section>
+
+        {/* Lessons Learned */}
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-secondary mb-3">Lessons Learned</h2>
+          <p className="text-base lg:text-lg text-base-content mb-4">
+            This project introduced me to the construction tech industry and gave me deep exposure to BIM workflows. I learned how to integrate external APIs, conduct rigorous testing, and collaborate in an agile scrum team.
+          </p>
+          <p className="text-base lg:text-lg text-base-content">
+            Through mentorship, independent research, and stakeholder engagement, I strengthened my problem-solving skills, adaptability, and ability to work across disciplines. It was a rewarding challenge that taught me to manage uncertainty and technical complexity effectively.
+          </p>
+        </section>
+
+
       </div>
     </>
   );
 };
 
-export default Project2;
+export default Project6;
