@@ -6,30 +6,31 @@ import 'react-multi-carousel/lib/styles.css';
 
 const projects = [
   {
+    title: 'AI in Space Workshop',
+    description: 'Co-led a student innovation workshop on AI ethics and spacecraft design in partnership with Space Machines Company and ING Bank.',
+    imageUrl: '/images/Projects/Space.avif',
+    projectUrl: '/projects/project4'
+  },
+  {
     title: 'SME Growth Recommender Platform',
-    description: 'Sample Text',
+    description: 'Led a team of 8 to develop a web app that helps identify high-growth potential businesses using custom filters and data insights.',
     imageUrl: '/images/Projects/SME.png',
     projectUrl: '/projects/project1'
   },
   {
     title: 'MEP Supports Tool',
-    description: 'Collaborated with Hilti Group to streamline a design process regarding MEP (mechanical, electrical, plumbing) structures.',
+    description: 'Built a Navisworks plugin for Hilti to automate BIM support recommendations, streamlining the quoting process in construction.',
     imageUrl: '/images/Projects/MEP.avif',
     projectUrl: '/projects/project2'
   },
   {
     title: 'Developer Portfolio',
-    description: 'This is a sample project description. Random things are here in description. This is a sample project lorem ipsum generator for dummy content.',
+    description: 'Designed and built a responsive, animated portfolio site using Next.js, Tailwind CSS, and GSAP to showcase my work and skills.',
     imageUrl: '/images/Projects/Portfolio.png',
     projectUrl: '/projects/project3'
   },
-  {
-    title: 'Optik Summer Tradeshow',
-    description: 'This is a sample project description. Random things are here in description. This is a sample project lorem ipsum generator for dummy content.',
-    imageUrl: '/images/Projects/VideoProject.png',
-    projectUrl: '/projects/project4'
-  }
 ];
+
 
 const responsive = {
   superLargeDesktop: {

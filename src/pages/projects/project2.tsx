@@ -5,7 +5,7 @@ const Project6 = () => {
   return (
     <>
       <Head>
-        <title>Hilti MEP Supports Tool | Siddhika&apos;s Portfolio</title>
+        <title>Hilti MEP Supports Tool </title>
         <meta
           name="description"
           content="A Navisworks plugin to automate BIM analysis for MEP support suggestions, built during a consultancy internship with Optik and Hilti."
