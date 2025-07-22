@@ -45,7 +45,7 @@ const Project4 = () => {
             <li>Co-designed workshop content alongside UTS and Space Machines Company engineers</li>
             <li>Led student groups through design challenges and interactive activities</li>
             <li>Facilitated discussions on AI ethics, autonomy, and responsibility in space systems</li>
-            <li>Helped shape an inclusive and encouraging learning environment for 50+ students</li>
+            <li>Helped shape an inclusive and encouraging learning environment for curious high school students</li>
           </ul>
         </section>
 
